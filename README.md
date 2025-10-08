@@ -8,6 +8,12 @@ source venv/bin/activate
 # Then run Playwright commands
 playwright install chromium
 
+We use a Chromium web driver to render the scrapped pages.
+
+We will be testing out Selenium and playwright
+
+`source venv/bin/activate && pip install selenium`
+
 
 
 3. To start do --- `source venv/bin/activate && uvicorn app.main:app --reload`
