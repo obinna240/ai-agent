@@ -1,0 +1,25 @@
+{
+    "user_id": "user_123",
+    "name": "Tommy",
+    "preferences": {
+      "preferred_airlines": ["BA", "EasyJet"],
+      "hotel_stars_min": 3,
+      "car_classes": ["compact", "suv"],
+      "insurance_cover": "comprehensive",
+      "max_car_insurance_price_per_year": 500
+    },
+    "travel_constraints": {
+      "budget_total_gbp": 1500,
+      "destination_candidates": ["Lisbon", "Barcelona"],
+      "dates": {
+        "depart": "2026-06-01",
+        "return": "2026-06-12",
+        "flex_days": 2
+      }
+    },
+    "notifications": {
+      "email": "you@example.com",
+      "push_enabled": true,
+      "frequency": "daily"
+    }
+  }
